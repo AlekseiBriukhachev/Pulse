@@ -42,6 +42,16 @@
     &_mini {
         min-height: 143px;
     }
+    .error {
+        color: $main-color;
+        border: 1px solid $main-color;
+        box-shadow: 1px 1px 14px $main-color inset;
+    }
+    label.error {
+        border: none;
+        box-shadow: none;
+        margin-bottom: 15px;
+    }
 }
 
 #consult, #order, #thanks {
