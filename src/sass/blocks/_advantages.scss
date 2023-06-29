@@ -32,4 +32,12 @@
             color: #FF0000;
         }
     }
+    &__icon {
+        &_heart {
+            animation: heartbeat 2s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+    }
 }

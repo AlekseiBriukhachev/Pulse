@@ -8,6 +8,7 @@
   max-width: 60%;
   margin: 0 auto;
 }
+@import 'base/animations';
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/buttons';
@@ -20,4 +21,5 @@
 @import 'blocks/footer';
 @import 'blocks/references';
 @import 'blocks/modals';
+@import 'blocks/pageup';
 @import 'blocks/media';
